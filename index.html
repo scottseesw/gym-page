@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>City Gym</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">City Gym</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mb-5" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#classes">Classes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#info">Info</a>
+              </li>
+          
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+              <a
+                class="nav-link dropdown-toggle "
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >
+               Member
+              </a>
+              <ul class="dropdown-menu bg-tertiary">
+                <li><a class="dropdown-item" href="#">Sign In</a></li>
+                <li><a class="dropdown-item" href="#">Sign Out</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#credit">Credit</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+         
+        </div>
+      </div>
+    </nav>
+
+
+    <!--Main Pic -->
+    <section class="container p-5">
+      <div class="container bg-light bg-gradient " >
+        <div class="row col-md-6 col-lg-12 mt-5 mb-5 bg-image p-5">
+          <img
+            src="/photo-1542766788-a2f588f447ee.avif"
+            class="img-fluid " 
+            alt="Pic of the gym"
+          />
+          <h1 class="text-center">City Gym</h1>
+        </div> 
+      </div>
+       
+    </section>
+
+    <!--About-->
+    <section class="container" id="about">
+     
+      <p class="text b-5">At the City Gym you can take care of your mental, emotioanl, and physical health. Sign up for a variety of workouts that will challenge you and give you opportunities to grow. 
+
+
+      </p>
+    </section>
+    <!--Workout Choices and Sign-Up Forms and with 3 Cards-->
+
+    <div class="container p-5" id="classes">
+      <div class="row g-3">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="/photo-1549576490-b0b4831ef60a.avif" alt="Pic of people doing yoga" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">A yoga class</h5>
+              <p class="card-text">Join us for a variety of yoga classes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="/photo-1517836357463-d25dfeac3438.avif" alt="Pic of people weight training" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Weight lifting</h5>
+              <p class="card-text">Weight training.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="/photo-1622599518895-be813cc42628.avif" alt="Pic of member boxing" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Boxing</h5>
+              <p class="card-text">Strengthen through boxing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--More info form-->
+    <section
+      class="container p-5 border border-primary bg-light mb-5"
+      id="info"
+    >
+      <form class="row g-3 p-5">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4" />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress"
+            placeholder="1234 Main St"
+          />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress2"
+            placeholder="Apartment, studio, or floor"
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity" />
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip" />
+        </div>
+      </form>
+    </section>
+
+    <!--Location and Credits-->
+
+    <section id="credit">
+      <footer>  
+        <h4 class="text-center">&copyScott Christnelly 2023</h4>
+        <h4 class="text-center">All images taken from Unsplash</h4>
+      </footer>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

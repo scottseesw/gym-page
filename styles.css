@@ -1,0 +1,23 @@
+body {
+  background-color: aquamarine;
+  background-image: url("https://unsplash.com/photos/m27OTMegUyA");
+  height: 500px;
+}
+
+.navbar-brand {
+  font-size: 50px;
+}
+
+.nav-item {
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 100px;
+  color: blue;
+}
+
+.text {
+  text-align: center;
+  font-size: 30px;
+}
