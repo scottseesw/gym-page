@@ -12,9 +12,30 @@ body {
   font-size: 25px;
 }
 
+.dropdown-item {
+  font-size: 30px;
+}
+
+.text-center {
+  font-size: 50px;
+}
+
 h1 {
-  font-size: 100px;
+  font-size: 50px;
   color: blue;
+}
+
+h4 {
+  font-size: 5px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.activities {
+  font-size: 40px;
+  list-style: none;
 }
 
 .text {

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign In</title>
+  </head>
+  <body>
+      <!--Navbar-->
+      <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">City Gym</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mb-5" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+         
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Classes</a>
+                </li>
+             
+            
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#members">
+                <a
+                  class="nav-link dropdown-toggle "
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >
+                 Member
+                </a>
+                <ul class="dropdown-menu bg-tertiary">
+                  <li><a class="dropdown-item" href="signin.html">Sign In</a></li>
+                  <li><a class="dropdown-item" href="signout.html">Sign Out</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#sign-up">Sign Up</a>
+                    <a class="dropdown-item" href="#credit">Credit</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+    
+    <div class="container d-flex justify-content-center  mt-5 mx-auto">
+        
+      <form class="border  col-sm-4 col-lg-6 "> 
+       
+          <h1>Sign In</h1>
+          <div class="row mb-3 ">
+            <label for="inputEmail3" class="col-sm-2 col-form-label w-25"></label>
+         
+            <div class="col-sm-10">
+              Email(phone or mobile accounts)
+              <input
+                type="email"
+                class="form-control"
+                id="inputEmail3"
+                placeholder="Enter Email"
+              />
+            </div>
+          </div>
+          <div class="row mb-3 ">
+            <label for="inputPassword3" class="col-sm-2 col-form-label w-25"></label>
+            <div class="col-sm-10">
+              <div class="d-flex justify-content-between align-items-center">
+                <label for="inputPassword3" class="form-label">Password</label>
+                <a href="#" class="text-decoration-none">Forgot password?</a>
+              </div>
+              <input type="password" class="form-control" id="inputPassword3" placeholder="Enter Password">
+            </div>
+          </div>
+      
+            <button type="button" class="btn btn-warning col-sm-10 ">Continue</button>
+            
+            <h5 class="text-primary p-3">Need Help?</h5>
+            <br>
+         </div>
+
+         <div class="container col-12 md-6 lg-12">
+          <div class="row ">
+            <div class="text-center pb-5">
+          <img src="/images/photo-1623874514711-0f321325f318.avif" class="img-fluid ms-auto" alt="Pic of a gym">
+          </div>
+          </div>
+         </div>
+
+    <section id="credit">
+      <footer>  
+        <h4 class="text-center">&copyScott Christnelly 2023</h4>
+        <h4 class="text-center">All images taken from Unsplash</h4>
+      </footer>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
